@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Barsha Mam!</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Surprise Button -->
+      <div id="surpriseButton" class="button-container">
+        <button id="surpriseBtn">Click for Surprise</button>
+      </div>
+
+      <!-- Hidden content initially -->
+      <div id="content" class="content hidden">
+        <h1 class="header">Happy Birthday Barsha Mam!</h1>
+        <p class="greeting">
+          Wishing you a day filled with love, laughter, and all the happiness in
+          the world. May this year bring you all the success and joy you
+          deserve!
+        </p>
+        <p class="greeting">
+          You are truly a wonderful person, and we all appreciate your kindness
+          and wisdom. Have a fantastic year ahead!
+        </p>
+
+        <!-- Images Section -->
+        <div class="photo-collage">
+          <img src="photo1.jpg" alt="Barsha Mam 1" class="collage-img img1" />
+          <img src="photo2.jpg" alt="Barsha Mam 2" class="collage-img img2" />
+          <img src="photo3.jpg" alt="Barsha Mam 3" class="collage-img img3" />
+          <img src="photo4.jpg" alt="Barsha Mam 4" class="collage-img img4" />
+          <img src="photo5.jpg" alt="Barsha Mam 5" class="collage-img img5" />
+        </div>
+
+        <!-- Wishes from Mahesh Sir at the bottom -->
+        <div class="footer">
+          <p class="footer-text">Wishing you a magical year ahead! 🎉🎂🎈</p>
+          <p class="footer-text">With lots of love, Mahesh Sir. 💖</p>
+        </div>
+
+        <!-- Hidden Music, autoplay and no controls -->
+        <audio id="birthdayMusic" autoplay>
+          <source src="birthday.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <canvas id="heartCanvas"></canvas>
+  </body>
+</html>
